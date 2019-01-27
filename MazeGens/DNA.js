@@ -5,7 +5,7 @@ function DNA() {
 
 
   this.randomize = function() {
-    for (var i = 0; i < 1600; i++) {
+    for (var i = 0; i < 1000; i++) {
       this.direction.push(createVector((random(-1, 1)), (random(-1, 1))))
     }
   }
