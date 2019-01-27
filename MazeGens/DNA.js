@@ -1,7 +1,7 @@
 function DNA() {
   this.direction = []
   this.step = 0
-  this.mutationRate = 0.01
+  this.mutationRate = 0.001
 
 
   this.randomize = function() {
