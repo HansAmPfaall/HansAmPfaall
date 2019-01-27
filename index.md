@@ -5,3 +5,5 @@
 [Asteroid](https://hansampfaall.github.io/Asteroid)
 
 [Drill](https://hansampfaall.github.io/Drill)
+
+[MazeGens](https://hansampfaall.github.io/MazeGens)
