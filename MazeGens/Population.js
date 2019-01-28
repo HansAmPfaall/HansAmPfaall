@@ -3,13 +3,15 @@ function Population() {
   this.fitnessSum = 0
 
 
-  for (var i = 0; i < 550; i++) {
+  for (var i = 0; i < 500; i++) {
     this.ships.push(new Ship())
   }
 
   this.update = function() {
-    for (var i = 0; i < this.ships.length; i++) {
+    for (var i = 0; i < 500; i++) {
       this.ships[i].draw()
+    }
+    for (var i = 0; i < this.ships.length; i++) {
       if (this.ships[i].dead == false) {
         this.ships[i].move();
       }
